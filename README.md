@@ -65,6 +65,11 @@ Other advanced configurations, which can be set via the constructor, are:
 * The ratio of hidden neurons to visible neurons in each autoencoder (default *hidden_ratio=0.75*) 
 
 # Demo Code
+Open the terminal where the code base is cloned and run the following commands to install the required libraries.
+```
+chmod +x requirement.sh
+./requirement.sh
+```
 As a quick start, a demo script is provided in example.py. You can either run it directly or enter the following into your python console
 ```
 import example.py
